@@ -1,0 +1,33 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U main%b		main.adb		9645c075 NE OO SU
+W fibo%b		fibo.adb		fibo.ali
+W fibo_opti%b		fibo_opti.adb		fibo_opti.ali
+W hellos%s		hellos.adb		hellos.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D fibo.adb		20200210230633 45f978f7 fibo%b
+D fibo_opti.adb		20200210230630 f01e0320 fibo_opti%b
+D hellos.ads		20200210230606 76f6d6a1 hellos%s
+D main.adb		20200210230933 55546d03 main%b
+D system.ads		20180111085525 4635ec04 system%s
+D s-conca4.ads		20180111085525 7e642b20 system.concat_4%s
+D s-imgint.ads		20180111085525 02dbe0c2 system.img_int%s
+X 1 fibo.adb
+1V10*Fibo{integer} 4|2w6
+X 2 fibo_opti.adb
+1V10*Fibo_Opti{integer} 4|3w6 10s7 16s7
+X 3 hellos.ads
+1K9*Hellos 6e11 4|1w6 1r18
+4U13*Hello 4|7s5 13s5
+X 4 main.adb
+4U11*Main 4b11 19l5 19t9
+6i7 I{integer} 8r8 10r18 14r22 16r18
+

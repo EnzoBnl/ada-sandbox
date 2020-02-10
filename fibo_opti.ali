@@ -1,0 +1,18 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+RV NO_RECURSION
+RV SPARK_05
+
+U fibo_opti%b		fibo_opti.adb		f01e0320 NE OO SU
+
+D fibo_opti.adb		20200210230630 f01e0320 fibo_opti%b
+D system.ads		20180111085525 4635ec04 system%s
+X 1 fibo_opti.adb
+1V10*Fibo_Opti{integer} 1b10 1>21 1>39 1>46 1>68 7s12 9l5 9t14
+1i21 Target{integer} 4r16 7r23
+1i39 Acc_1{integer} 7r38
+1i46 Acc_2{integer} 5r12 7r31 7r46
+1i68 Current{integer} 4r6 7r53
+
